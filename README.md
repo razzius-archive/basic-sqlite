@@ -1,6 +1,8 @@
 # [Python](http://python.org) + [SQLite](http://sqlite.org)
 
-Interactive guide:
+This is an interactive guide - run each command and edit each file as you go.
+
+The [PyClassLessons edition](https://github.com/razzius/PyClassLessons/blob/master/course/sqlite3.md) is a better reference - this course in contrast aims to useful hands-on practice.
 
 ## Install python
 
@@ -15,9 +17,16 @@ import sys
 print(sys.argv)
 ```
 
+From terminal:
+
+```sh
+$ python script.py 1 2
+['script.py', '1', '2']
+```
+
 ## Install SQLite
 
-See the notes in PyClassLessons[https://github.com/razzius/PyClassLessons/blob/master/course/sqlite3.md#the-sqlite-relational-database-format]
+[See the notes in PyClassLessons](https://github.com/razzius/PyClassLessons/blob/master/course/sqlite3.md#the-sqlite-relational-database-format)
 
 - On OSX with Homebrew, type brew install sqlite
 - On Debian/Ubuntu or similar Linux distributions, type apt-get install sqlite
